@@ -33,9 +33,9 @@ p {
 .jumbotron {
   display: flex;
   align-items: center;
-  /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('http://cgaxis.com/blog/wp-content/uploads/2014/10/vol52_render.jpg');
   background-size: cover;
-  color: #ffffff;
+  /*color: #ffffff;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   height: 500px;*/
 }
