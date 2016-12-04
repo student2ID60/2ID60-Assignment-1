@@ -8,6 +8,15 @@ footer .row {
   align-items: center;
 }
 
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
 
 h1 {
   font-family: Arial;
