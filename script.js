@@ -1,12 +1,10 @@
 $(document).ready(function() {
   
   $("#btn-start").click(function() {
-    //$("#shopping-list").hide();
-    $(this).hide();
+    $("#shopping-list").hide();
   });
   
   $('#knop').click(function() {
-    //$("#shopping-list").hide();
     $(this).hide();
   });
   
