@@ -67,6 +67,10 @@ p {
   background-color: #ffffff;
 }
 
+.item {
+  color: #558811;
+}
+
 #shopping-list {
   /*display: none;*/
 }
