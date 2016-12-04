@@ -1,7 +1,7 @@
 $(document).ready(function() {
   
   $('#btn-start').click(function() {
-    $('#shopping-list').hide();
+    $('#shopping-list').show();
   });
   
   $('#knop').click(function() {
