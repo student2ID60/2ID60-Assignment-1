@@ -5,9 +5,9 @@ $(document).ready(function() {
     $(this).hide();
   }
   
-  $("#knop").click(function() {
+  $('#knop').click(function() {
     //$("#shopping-list").hide();
     $(this).hide();
-  }
+  });
                                                
 });
