@@ -1,3 +1,7 @@
+body {
+  font-family: Corbel, Eurostile, Levenim MT, Arial;
+}
+
 header {
   padding: 20px 0;
 }
@@ -19,7 +23,6 @@ header p {
 }
 
 h1 {
-  font-family: Eurostile, Levenim MT, Arial;
   font-size: 3em;
 }
 
