@@ -19,11 +19,11 @@ header p {
 }
 
 h1 {
-  font-family: Eurostile, Levenim TM, Arial;
+  font-family: Eurostile, Levenim MT, Arial;
   font-size: 3em;
 }
 
 p {
-  font-family: Corbel, Arial;
+  font-family: Corbel, Eurostile, Levenim MT, Arial;
   font-size: 1em;
 }
