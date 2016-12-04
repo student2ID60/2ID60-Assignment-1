@@ -67,14 +67,18 @@ p {
   background-color: #ffffff;
 }
 
-.item {
-  color: #558811;
-  
-}
-
 #shopping-list {
   display: none;
 }
+
+.item {
+  color: #558811;
+  align-items: center;
+}
+
+/*.product {
+  
+}*/
 
 footer {
   font-size: 12px;
