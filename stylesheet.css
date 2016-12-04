@@ -39,3 +39,16 @@ p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
   height: 500px;*/
 }
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
