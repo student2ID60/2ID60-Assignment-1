@@ -73,7 +73,11 @@ p {
 
 .item {
   color: #558811;
-  align-items: center;
+  /*align-items: center;*/
+}
+
+.row-centered {
+  text-align: center;
 }
 
 .col-centered {
