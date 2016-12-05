@@ -17,8 +17,8 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
-  padding: 0 20px;
+header nav div {
+  padding: 0.5em 2em;
   margin: 0;
 }
 
