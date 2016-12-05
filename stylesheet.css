@@ -109,6 +109,14 @@ p {
   width: 1em;
 }
 
+input[name="new-product"] {
+  
+}
+
+input[name="new-amount"] {
+  
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
