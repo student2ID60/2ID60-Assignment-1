@@ -170,10 +170,12 @@ p {
 
 #product-form {
   width = 50px;
+  padding = 0px;
 }
 
 #amount-form {
   width = 30px;
+  padding = 0px;
 }
 
 #product-form input, #amount-form input {
