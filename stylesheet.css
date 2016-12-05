@@ -82,6 +82,19 @@ p {
   border: 0.2em solid #558811;*/
 }
 
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  /*inline-block space fix
+  margin-right:-4px;*/
+  padding: 0.5em;
+}
+
 .product, .amount, .btn-remove, .btn-add {
   background-color: #dddddd;
   border-radius: 0.2em;
@@ -91,22 +104,6 @@ p {
   height: 1em;
   width: 1em;
 }
-
-.row-centered {
-  text-align: center;
-}
-
-.col-centered {
-  display:inline-block;
-  float:none;
-  text-align:left;
-  /*inline-block space fix
-  margin-right:-4px;*/
-}
-
-/*.product {
-  
-}*/
 
 footer {
   font-size: 12px;
