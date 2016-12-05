@@ -11,7 +11,6 @@ $(document).ready(function() {
   $('.btn-add').click(function() {
     var newProduct = $('input[name=new-product]').val();
     var newAmount = $('input[name=new-amount]').val();
-    var testvar = "hallo";
     $('#product-form')[0].reset();
     $('#amount-form')[0].reset();
     $('#new-item').before("<p>" + newProduct + "</p>");
