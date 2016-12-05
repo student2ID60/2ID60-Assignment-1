@@ -87,7 +87,7 @@ p {
   background-color: #dddddd;
 }
 
-.btn-remove img {
+.btn-remove, .btn-add img {
   height: 1em;
   width: 1em;
 }
