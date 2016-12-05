@@ -34,7 +34,7 @@ p {
 
 /*DROPDOWN MENU--------------------------------------------------------------*/
 
-.dropbtn {
+.btn-drop-supermarkets {
     /*background-color: #4CAF50;*/
     color: #558811;
     /*padding: 16px;
@@ -44,7 +44,7 @@ p {
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover {
+.btn-drop-supermarkets:hover {
     /*background-color: #3e8e41;*/
 }
 
