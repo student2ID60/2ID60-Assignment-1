@@ -71,11 +71,16 @@ p {
   display: none;
 }
 
+.titles {
+  font-weight: bold;
+}
+
 .item {
   color: #558811;
+  background-color: #dddddd;
   /*align-items: center;*/
-  margin: 0.5em;
-  border: 0.2em solid #558811;
+  /*margin: 0.5em;
+  border: 0.2em solid #558811;*/
   border-radius: 0.2em;
 }
 
