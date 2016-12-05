@@ -110,11 +110,11 @@ p {
 }
 
 input[name="new-product"] {
-  
+  width = 100%;
 }
 
 input[name="new-amount"] {
-  
+  width = 100%;
 }
 
 footer {
