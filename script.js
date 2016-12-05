@@ -11,8 +11,8 @@ $(document).ready(function() {
   $('.btn-add').click(function() {
     /*var newProduct = $('input[name=new-product]').val();
     var newProduct = $('input[name=new-amount]').val();*/
-    $('input[name=new-product]').reset();
-    $('input[name=new-amount]').reset();
+    $('form[name=form-product]').reset();
+    $('form[name=form-amount]').reset();
     $('#new-item').before("<p>hoi</p>");
     //$(this).parent().remove();
   });
