@@ -92,8 +92,7 @@ p {
   text-align: left;
   /*inline-block space fix
   margin-right:-4px;*/
-  /*padding: 0.5em;*/
-  height: 2em;
+  padding: 0.5em;
 }
 
 .product, .amount, .btn-remove, .btn-add {
