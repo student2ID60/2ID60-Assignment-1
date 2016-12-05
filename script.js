@@ -13,7 +13,7 @@ $(document).ready(function() {
     var newProduct = $('input[name=new-amount]').val();
     $('input[name=new-product]').reset();
     $('input[name=new-amount]').reset();
-    $('#new').before("<p>hoi</p>");
+    $('#new-item').before("<p>hoi</p>");
   });
   
 });
