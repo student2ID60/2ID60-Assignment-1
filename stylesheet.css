@@ -77,11 +77,14 @@ p {
 
 .item {
   color: #558811;
-  background-color: #dddddd;
   /*align-items: center;*/
   /*margin: 0.5em;
   border: 0.2em solid #558811;*/
-  border-radius: 0.2em;
+  /*border-radius: 0.2em;*/
+}
+
+.product, .amount {
+  background-color: #dddddd;
 }
 
 .btn-remove img {
