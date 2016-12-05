@@ -186,6 +186,8 @@ p {
 footer {
   font-size: 12px;
   padding: 20px 0;
+  position: absolute;
+  bottom: 0px;
 }
 
 footer .col-sm-9 {
