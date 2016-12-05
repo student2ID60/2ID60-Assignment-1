@@ -10,9 +10,9 @@ $(document).ready(function() {
   
   $('.btn-add').click(function() {
     /*var newProduct = $('input[name=new-product]').val();
-    var newProduct = $('input[name=new-amount]').val();*/
+    var newAmount = $('input[name=new-amount]').val();*/
     $('#product-form').reset();
-    $('#name=amount-form').reset();
+    $('#amount-form').reset();
     $('#new-item').before("<p>hoi</p>");
     //$(this).parent().remove();
   });
