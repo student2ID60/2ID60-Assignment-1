@@ -69,6 +69,7 @@ p {
 
 #shopping-list {
   display: none;
+  color: #558811;
 }
 
 .titles {
@@ -76,15 +77,14 @@ p {
 }
 
 .item {
-  color: #558811;
   /*align-items: center;*/
   /*margin: 0.5em;
   border: 0.2em solid #558811;*/
-  /*border-radius: 0.2em;*/
 }
 
-.product, .amount {
+.product, .amount, .btn-remove, .btn-add {
   background-color: #dddddd;
+  border-radius: 0.2em;
 }
 
 .btn-remove img, .btn-add img {
