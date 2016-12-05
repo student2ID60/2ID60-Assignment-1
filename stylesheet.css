@@ -170,22 +170,18 @@ p {
 }
 
 #product-form {
-  width: 50px;
+  width: 100%;
   padding: 0px;
 }
 
 #amount-form {
-  width: 30px;
+  width: 100%;
   padding: 0px;
 }
 
 #product-form input, #amount-form input {
   width: 100%;
 }
-
-/*#product-input, #amount-input {
-  width: 100%
-}*/
 
 footer {
   font-size: 12px;
