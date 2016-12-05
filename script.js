@@ -14,6 +14,7 @@ $(document).ready(function() {
     $('input[name=new-product]').reset();
     $('input[name=new-amount]').reset();
     $('#new-item').before("<p>hoi</p>");
+    $(this).remove();
   });
   
 });
