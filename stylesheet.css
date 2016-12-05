@@ -138,11 +138,11 @@ p {
   width: 1em;
 }
 
-input[name="new-product"] {
+#product-form {
   width = 100px;
 }
 
-input[name="new-amount"] {
+#amount-form {
   width = 100px;
 }
 
