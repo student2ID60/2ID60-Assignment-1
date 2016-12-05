@@ -197,6 +197,10 @@ footer ul {
   list-style: none;
 }
 
+footer li {
+  text-align: center;
+}
+
 footer li img {
   height: 24px;
 }
