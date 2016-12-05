@@ -13,7 +13,7 @@ $(document).ready(function() {
     var newAmount = $('input[name=new-amount]').val();*/
     $('#product-form')[0].reset();
     $('#amount-form')[0].reset();
-    $('#new-item').before("<p>hoi</p>");
+    $('#new-item').before("<div class='item row row-centered'><div class='col-sm-2 col-centered product'>Water</div><div class='col-sm-1 col-centered amount'>7</div><div class='col-sm-1 col-centered btn-remove'><img src='remove-icon.png'/></div></div>");
     //$(this).parent().remove();
   });
   
