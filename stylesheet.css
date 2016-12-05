@@ -184,9 +184,9 @@ p {
 }
 
 footer {
-  font-size: 12px;
-  padding: 20px 0;
-  position: absolute;
+  font-size: 1em;
+  padding: 2em 0;
+  position: relative;
   bottom: 0px;
 }
 
