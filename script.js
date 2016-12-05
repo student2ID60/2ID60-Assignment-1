@@ -9,12 +9,14 @@ $(document).ready(function() {
   });
   
   $('.btn-add').click(function() {
-    var newProduct = $('input[name=new-product]').val();
-    var newAmount = $('input[name=new-amount]').val();
-    $('#product-form')[0].reset();
-    $('#amount-form')[0].reset();
-    $('#new-item').before("<div class='item row row-centered'><div class='col-sm-2 col-centered product'>" + newProduct + "</div><div class='col-sm-1 col-centered amount'>" + newAmount + "</div><div class='col-sm-1 col-centered btn-remove'><img src='remove-icon.png'/></div></div>");
-    //$('#new-item').before("<div class='item row row-centered'><div class='col-sm-2 col-centered product'>" + newProduct + "</div><div class='col-sm-1 col-centered amount'>" + newAmount + "</div><div class='col-sm-1 col-centered btn-remove'><img src='remove-icon.png'/></div></div>");
+    if($('input[name=new-product]').val() != "") {
+      var newProduct = $('input[name=new-product]').val();
+      var newAmount = $('input[name=new-amount]').val();
+      $('#product-form')[0].reset();
+      $('#amount-form')[0].reset();
+      $('#eerste').after("<div class='item row row-centered'><div class='col-sm-2 col-centered product'>" + newProduct + "</div><div class='col-sm-1 col-centered amount'>" + newAmount + "</div><div class='col-sm-1 col-centered btn-remove'><img src='remove-icon.png'/></div></div>");
+      //$('#new-item').before("<div class='item row row-centered'><div class='col-sm-2 col-centered product'>" + newProduct + "</div><div class='col-sm-1 col-centered amount'>" + newAmount + "</div><div class='col-sm-1 col-centered btn-remove'><img src='remove-icon.png'/></div></div>");
+    }
   });
   
   
