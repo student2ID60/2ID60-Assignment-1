@@ -84,6 +84,11 @@ p {
   border-radius: 0.2em;
 }
 
+.item div div img {
+  height: 1em;
+  width: 1em;
+}
+
 .row-centered {
   text-align: center;
 }
