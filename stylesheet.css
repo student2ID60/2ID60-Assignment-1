@@ -176,7 +176,7 @@ p {
   width = 30px;
 }
 
-#new-product, #new-amount {
+#product-form input, #amount-form input {
   width = 100%;
 }
 
