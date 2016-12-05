@@ -8,4 +8,10 @@ $(document).ready(function() {
     $(this).parent().remove();
   });
   
+  $('.btn-add').click(function() {
+    var newProduct = $('input[name=new-product]').val();
+    var newProduct = $('input[name=new-amount]').val();
+    
+  });
+  
 });
