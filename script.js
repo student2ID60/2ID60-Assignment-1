@@ -4,8 +4,8 @@ $(document).ready(function() {
     $('#shopping-list').show();
   });
   
-  $('#knop').click(function() {
-    $(this).hide();
+  $('.btn-remove').click(function() {
+    $(this).parent().remove();
   });
   
 });
