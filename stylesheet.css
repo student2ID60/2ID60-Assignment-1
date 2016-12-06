@@ -22,7 +22,14 @@ header nav div p {
   margin: 0;
 }
 
-header nav div p a {
+header nav div p a,
+header nav div a {
+  color: #000000;
+  text-decoration: none;
+}
+
+header nav div p a:hover,
+header nav div a:hover {
   color: #000000;
   text-decoration: none;
 }
