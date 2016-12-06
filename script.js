@@ -20,13 +20,13 @@ $(document).ready(function() {
       $('#product-form')[0].reset();
       $('#amount-form')[0].reset();
       // add the new product and amount to the shopping list, as the last item before the line where the forms for a new product are
-      $('#new-item').before("\n<div class='item row row-centered'>\n<div class='col-sm-2 col-centered product'>" + newProduct + "</div>\n<div class='col-sm-1 col-centered amount'>" + newAmount + "</div>\n<div class='col-sm-1 col-centered btn-remove'>\n<img src='images/remove-icon.png'/>\n</div>\n</div>\n");
+      $('#new-item').before("\n<div class='item row row-centered'>\n<div class='col-sm-2 col-centered product'>" + newProduct + "</div>\n<div class='col-sm-1 col-centered amount'>" + newAmount + "</div>\n<a href='#'>\n<div class='col-sm-1 col-centered btn-remove'>\n<img src='images/remove-icon.png'/>\n</div>\n</a>\n</div>\n");
     }
   });
   
   // remove an item from the shopping list after clicking its remove-button
   $('#shopping-list').on('click','.btn-remove',function() {
-    $(this).parent().remove();
+    $(this).parent().parent().remove();
   });
   
   
