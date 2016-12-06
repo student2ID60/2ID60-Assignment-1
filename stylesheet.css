@@ -174,13 +174,13 @@ p {
 .product, .amount, .btn-remove, .btn-add {
   background-color: #dddddd;
   border-radius: 0.2em;
-  /*cursor used twice to support different browsers*/
-  cursor: pointer;
-  cursor: hand;
 }
 
 .btn-remove, .btn-add {
   text-align: center;
+  /*cursor used twice to support different browsers*/
+  cursor: pointer;
+  cursor: hand;
 }
 
 .btn-remove img, .btn-add img {
