@@ -23,7 +23,9 @@ header nav div p {
 }
 
 header nav div p a,
-header nav div a {
+header nav div a,
+header nav div p a:visited,
+header nav div a:visited {
   color: #000000;
   text-decoration: none;
 }
