@@ -4,10 +4,12 @@ $(document).ready(function() {
     $('#shopping-list').show();
   });
   
+  /*
   $('.btn-remove').click(function() {
     $(this).parent().remove();
     console.log("test");
   });
+  */
   
   $('.btn-add').click(function() {
     if($('input[name=new-product]').val() != "") {
@@ -24,8 +26,10 @@ $(document).ready(function() {
   });
   
   $(document).on('click','.btn-remove',function() {
-    var id = $(this).attr('id');
-    alert(id);    
+    /*var id = $(this).attr('id');
+    alert(id);*/
+    $(this).parent().remove();
+    console.log("test");
   });
   
   
