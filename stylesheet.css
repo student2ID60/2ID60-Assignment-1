@@ -59,7 +59,6 @@ p {
   width: 100%;
   text-align: left;
   z-index: 1;
-  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .dropdown-content a {
@@ -133,8 +132,7 @@ p {
 }
 
 .item {
-  /*align-items: center;*/
-  /*margin: 0.5em;*/
+  /*extra styling can be added here if necessary*/
 }
 
 .row-centered {
@@ -145,8 +143,6 @@ p {
   display: inline-block;
   float: none;
   text-align: left;
-  /*inline-block space fix
-  margin-right:-4px;*/
   padding: 0.5em;
 }
 
