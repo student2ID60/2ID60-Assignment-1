@@ -148,6 +148,14 @@ p {
   color: #558811;
 }
 
+#shopping-list .col-sm-2 {
+  min-width: 10em;
+}
+
+#shopping-list .col-sm-1 {
+  min-width: 5em;
+}
+
 .titles {
   font-weight: bold;
 }
