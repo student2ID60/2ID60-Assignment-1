@@ -23,17 +23,13 @@ header nav div p {
 }
 
 header nav div p a,
-header nav div a,
-header nav div p a:visited,
-header nav div a:visited {
+header nav div a {
   color: #000000;
   text-decoration: none;
 }
 
 header nav div p a:hover,
-header nav div a:hover,
-header nav div p a:active,
-header nav div a:active {
+header nav div a:hover {
   color: #558811;
   text-decoration: none;
 }
@@ -236,5 +232,5 @@ footer ul li {
 }
 
 footer li img {
-  height: 16px;
+  height: 1.5em;
 }
