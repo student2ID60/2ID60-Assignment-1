@@ -105,11 +105,10 @@ p {
 /*----------------------------------------------------------------------------------------*/
 
 
-
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://cgaxis.com/blog/wp-content/uploads/2014/10/vol52_render.jpg');
+  background-image: url('images/supermarket.jpg');
   background-size: cover;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
