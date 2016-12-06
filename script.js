@@ -25,7 +25,7 @@ $(document).ready(function() {
     }
   });
   
-  $(document).on('click','.btn-remove',function() {
+  $('#shopping-list').on('click','.btn-remove',function() {
     /*var id = $(this).attr('id');
     alert(id);*/
     $(this).parent().remove();
