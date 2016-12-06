@@ -29,7 +29,7 @@ $(document).ready(function() {
     $(this).parent().remove();
   });
   
-  // after clicking the 'supermarkets'-button, toggle between hiding and showing the dropdown content with the supermarkets by toggling the class "show"
+  // after clicking the 'supermarkets'-button, toggle between hiding and showing the dropdown content by toggling the class "show"
   $("#btn-drop-supermarkets").click(function() {
     $("#drop-supermarkets").toggleClass("show");
   });
