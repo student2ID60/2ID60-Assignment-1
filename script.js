@@ -14,7 +14,7 @@ $(document).ready(function() {
       var newProduct = $('input[name=new-product]').val();
       var newAmount = $('input[name=new-amount]').val();
       if (newAmount==""){
-        newAmount = " ";
+        newAmount = "-";
       } 
       $('#product-form')[0].reset();
       $('#amount-form')[0].reset();
