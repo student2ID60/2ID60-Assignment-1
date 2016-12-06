@@ -6,6 +6,7 @@ $(document).ready(function() {
   
   $('.btn-remove').click(function() {
     $(this).parent().remove();
+    console.log("test");
   });
   
   $('.btn-add').click(function() {
