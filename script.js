@@ -23,7 +23,7 @@ $(document).ready(function() {
     }
   });
   
-  $(document).on('click','.item',function() {
+  $(document).on('click','.btn-remove',function() {
     var id = $(this).attr('id');
     alert(id);    
   });
