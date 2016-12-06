@@ -23,7 +23,7 @@ $(document).ready(function() {
     }
   });
   
-  $(document).on('click','.btn-add',function() {
+  $(document).on('click','.item',function() {
     var id = $(this).attr('id');
     alert(id);    
   });
