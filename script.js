@@ -16,7 +16,7 @@ $(document).ready(function() {
       if (newAmount=="") {
         newAmount = "-";
       }
-      // reset the forms, so that later another new product can be made easily
+      // reset the forms, so that another new product can be created easier
       $('#product-form')[0].reset();
       $('#amount-form')[0].reset();
       // add the new product and amount to the shopping list, as the last item before the line where the forms for a new product are
@@ -28,7 +28,6 @@ $(document).ready(function() {
   $('#shopping-list').on('click','.btn-remove',function() {
     $(this).parent().remove();
   });
-  
   
   // after clicking the 'supermarkets'-button, toggle between hiding and showing the dropdown content with the supermarkets by toggling the class "show"
   $("#btn-drop-supermarkets").click(function() {
